@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Mind Cards</string>
+    <string name="info">
+        Mind Cards – это удобное приложение для запоминания разнородной информации, будь то термины,
+        даты или короткие факты.\n
+        Текст будет дописан по мере написания приложения...
+    </string>
 </resources>

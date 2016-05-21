@@ -12,14 +12,15 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="ua.nure.shylin.cards.MainMenu">
-        
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/ButtonStart"
             android:text="Добавить"
             android:background="@drawable/copybook1"
-            android:textSize="35dp" />
+            android:textSize="35dp"
+            android:onClick="addTest"/>
 
         <TextView
             android:layout_width="wrap_content"

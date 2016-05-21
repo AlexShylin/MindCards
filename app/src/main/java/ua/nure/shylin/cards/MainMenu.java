@@ -21,7 +21,8 @@ public class MainMenu extends AppCompatActivity {
 
     public void openInfo(View view){
         // Обработка нажатия кнопки "Справка"
-        // TODO доделать активити справки
+        Intent intent = new Intent(this, InfoActivity.class);
+        startActivity(intent);
     }
 
     public void exitApp(View view) {
