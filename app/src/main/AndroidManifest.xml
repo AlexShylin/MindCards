@@ -17,7 +17,10 @@
         </activity>
         <activity android:name=".StartActivity" />
         <activity android:name=".InfoActivity" />
-        <activity android:name=".InputTestNameActivity"></activity>
+        <activity android:name=".InputTestNameActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".EditQActivity" />
+        <activity android:name=".DeepEditorActivity"></activity>
     </application>
 
 </manifest>
