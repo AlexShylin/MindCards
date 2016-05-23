@@ -13,9 +13,9 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
     }
 
-    public void startCards(View view){
+    public void chooseYourDestiny(View view){
         // Обработка нажатия кнопки "Начать"
-        Intent intent = new Intent(this, StartActivity.class);
+        Intent intent = new Intent(this, ChooseYourDestinyActivity.class);
         startActivity(intent);
     }
 

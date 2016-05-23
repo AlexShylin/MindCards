@@ -20,7 +20,10 @@
         <activity android:name=".InputTestNameActivity" />
         <activity android:name=".EditActivity" />
         <activity android:name=".EditQActivity" />
-        <activity android:name=".DeepEditorActivity"></activity>
+        <activity android:name=".DeepEditorActivity" />
+        <activity android:name=".ChooseYourDestinyActivity" />
+        <activity android:name=".ChooseTestActivity" />
+        <activity android:name=".GoTestingActivity"></activity>
     </application>
 
 </manifest>
