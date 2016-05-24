@@ -9,16 +9,26 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text=" "
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:textSize="5dp" />
 
     <EditText
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите название теста"
-        android:background="#c7b7b7"
+        android:background="#cfd0ee"
         android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" "
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="5dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Удалить" />
+            android:text=" Удалить  " />
 
     </LinearLayout>
 

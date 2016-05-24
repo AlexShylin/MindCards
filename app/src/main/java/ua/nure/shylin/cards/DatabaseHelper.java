@@ -34,6 +34,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO cards (question,answer,tests_id) VALUES ('Въетнамская война','1964-1973',1);");
         db.execSQL("INSERT INTO cards (question,answer,tests_id) VALUES ('Карибский кризис','1962',1);");
         db.execSQL("INSERT INTO cards (question,answer,tests_id) VALUES ('Убийство Джона Кеннеди','22 ноября 1963 года',1);");
+        db.execSQL("INSERT INTO cards (question,answer,tests_id) VALUES ('Коронование Елизаветы II','1952',1);");
+        db.execSQL("INSERT INTO cards (question,answer,tests_id) VALUES ('Открытие туннеля под Ла-Маншем','1994',1);");
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion,  int newVersion) {
