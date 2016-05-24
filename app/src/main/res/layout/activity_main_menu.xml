@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/ButtonStart"
             android:text="Начать"
-            android:background="@drawable/mp_menu"
+            android:background="@drawable/paper"
             android:textSize="35dp"
             android:onClick="chooseYourDestiny"
             android:textColor="#0b0b61" />
@@ -37,10 +37,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageButton2"
             android:text="Справка"
-            android:background="@drawable/mp_menu"
+            android:background="@drawable/paper"
             android:textSize="35dp"
             android:onClick="openInfo"
-            android:textColor="#0b0b61" />
+            android:textColor="#0b0b61"
+            android:allowUndo="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,7 +56,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageButton3"
             android:text="Выход"
-            android:background="@drawable/mp_menu"
+            android:background="@drawable/paper"
             android:textSize="35dp"
             android:onClick="exitApp"
             android:textColor="#0b0b61" />

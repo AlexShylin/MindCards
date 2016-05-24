@@ -39,7 +39,7 @@
         android:text="Текст вопроса"
         android:id="@+id/button_text"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/testing_plastine"
+        android:background="@drawable/paper_test"
         android:textSize="26dp"
         android:textColor="#0d075e" />
     </LinearLayout>

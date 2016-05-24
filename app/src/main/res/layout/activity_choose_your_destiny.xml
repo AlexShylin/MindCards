@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageButton2"
             android:text="Проверить знания"
-            android:background="@drawable/mp_menu"
+            android:background="@drawable/paper"
             android:textSize="35dp"
             android:onClick="goTesting"
             android:textColor="#0b0b61" />
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/ButtonStart"
             android:text="Редактировать задания"
-            android:background="@drawable/mp_menu"
+            android:background="@drawable/paper"
             android:textSize="35dp"
             android:onClick="startEdit"
             android:textColor="#0b0b61" />
