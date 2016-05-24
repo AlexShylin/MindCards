@@ -43,7 +43,7 @@ public class ChooseTestActivity extends AppCompatActivity {
         db = sqlHelper.getReadableDatabase();
 
         //получаем данные из бд
-        userCursor =  db.rawQuery("select * from tests", null);
+        userCursor =  db.rawQuery("select * from tests T where 0 < (SELECT COUNT(_id) from cards where T._id = cards.tests_id)", null);
         String[] headers = new String[] {"name"};
         userAdapter = new SimpleCursorAdapter(this, android.R.layout.simple_list_item_1, userCursor, headers, new int[]{android.R.id.text1});
         mList.setAdapter(userAdapter);
